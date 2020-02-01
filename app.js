@@ -3,6 +3,8 @@
 // i have installed standard js npm module to check for StandardJS coding standard (check dev dependencies in package.json)
 // run 'npx standard', it will show some errors, fix them :)
 
+// there are some comments in lib/cart.js about static methods
+
 const config = require('./lib/config')
 const express = require('express')
 const session = require('express-session')
