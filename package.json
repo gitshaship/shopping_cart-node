@@ -1,0 +1,24 @@
+{
+  "name": "shopping-cart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^4.3.0",
+    "express-session": "^1.17.0",
+    "mocha": "^7.0.1",
+    "request": "^2.88.0",
+    "standard": "^14.3.1"
+  }
+}
