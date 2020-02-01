@@ -5,6 +5,12 @@
 
 // there are some comments in lib/cart.js about static methods
 
+// i think you should keep some products in the server
+// they have asked you to design an ecommerce app, they have products and the users add them to their shopping cart
+// store the products in the server in an array or an object
+// and when adding them to the shopping cart, use the product name (unique) and the quantity
+// the price can be taken from the server
+
 const config = require('./lib/config')
 const express = require('express')
 const session = require('express-session')
