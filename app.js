@@ -1,5 +1,8 @@
 'use strict';
 
+// i have installed standard js npm module to check for StandardJS coding standard (check dev dependencies in package.json)
+// run 'npx standard', it will show some errors, fix them :)
+
 const config = require('./lib/config')
 const express = require('express')
 const session = require('express-session')
