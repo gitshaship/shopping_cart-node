@@ -1,5 +1,10 @@
 const Cart = require("../lib/cart");
 
+// these kind of functions are called middleware in express js
+// routes are the paths an external user can call like GET /cart
+// you can add multiple middleware for a route e.g.: get('/cart', validateGetCartRequest, getCart)
+// it is not a big issue, but changing the file name to middleware would be better
+
 function createCart(req, res){
     if (!req.session.cart) {
         req.session.cart = {

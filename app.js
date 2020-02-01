@@ -11,6 +11,11 @@
 // and when adding them to the shopping cart, use the product name (unique) and the quantity
 // the price can be taken from the server
 
+// some comments about floating point calculations in lib/cart.js
+
+// comments in route/routes.js
+
+
 const config = require('./lib/config')
 const express = require('express')
 const session = require('express-session')
