@@ -15,6 +15,7 @@
 
 // comments in route/routes.js
 
+// use res.json instead of res.send for a JSON API
 
 const config = require('./lib/config')
 const express = require('express')
